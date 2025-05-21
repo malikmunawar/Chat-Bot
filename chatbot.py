@@ -1,5 +1,5 @@
 import streamlit as st
-from transformers import AutoModelForCausalLM, AutoTokenizer
+# from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 st.markdown("""
@@ -163,14 +163,14 @@ for i in range(11, 101):
     answer = f"sample answer {i}"
     FAQ_DATA[question] = answer
 
-# Load DialoGPT model and tokenizer once with caching
-@st.cache_resource(show_spinner=True)
-def load_model():
-    tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-small")
-    model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-small")
-    return tokenizer, model
+# # Load DialoGPT model and tokenizer once with caching
+# @st.cache_resource(show_spinner=True)
+# def load_model():
+#     tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-small")
+#     model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-small")
+#     return tokenizer, model
 
-tokenizer, model = load_model()
+# tokenizer, model = load_model()
 
 # Initialize chat history in session state
 if "chat_history_ids" not in st.session_state:
