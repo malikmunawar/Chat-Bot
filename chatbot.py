@@ -146,7 +146,7 @@ FAQ_DATA = {
     # Questions about Munawer Malik
     "who is munawer malik": "Munawer Malik is a digital marketer and the creator of this chatbot.",
     "what does munawer malik do": "Munawer Malik works as a digital marketer specializing in Google Ads.",
-    "where does munawer malik study": "Munawer Malik studies Software Engineering at IUB (Islamic University of Bahawalpur).",
+    "where does munawer malik study": "Munawer Malik studies Software Engineering at IUB (Islamia University of Bahawalpur).",
     "what semester is munawer malik in": "Munawer Malik is currently in the 7th semester of Software Engineering.",
     "what is munawer malik's profession": "Munawer Malik is a digital marketer and a software engineering student.",
     "does munawer malik work with google ads": "Yes, Munawer Malik works on Google Ads as part of his digital marketing skills.",
